@@ -1,0 +1,367 @@
+body{
+   
+       
+    background: #F0FFF0; /*Gris bajito*/
+    /*font-size: 1em;
+    font-family: arial;*/
+}
+
+
+
+header{
+   
+    text-align: center; 
+   
+}
+nav{
+  
+    /*float:left;*/
+    text-align: center;
+    /*margin-top: 0.7em;*/
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+
+aside {
+    float: right;
+    padding:10px;
+    width: 21%;/*Ancho del aside*/
+  
+   
+}
+
+section {
+    float: left;
+    padding:10px;
+    width: 39%;/*Ancho del section*/
+      
+}
+
+
+article {
+    float:left;
+    padding:10px;
+    width: 35%;/*Ancho del article*/
+   
+   
+}
+
+footer{
+    clear: both;/*Restaura el flujo normal del documento con la propiedad clear, para que no se suba hacia arriba*/
+    background: #2b3678;/*Azul Marino*/
+    color:#FFFFFF;/*Blanco*/
+    text-align: center;
+    font-size: 0.9em;
+    padding: 1em 0;
+}
+
+/* Remove margins and padding from the list, and add a black background color */
+
+/*Inicio de la lista del menu*/
+body {
+    margin:0;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#191970;/*Azul Marino*/
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 23px;
+  text-decoration: none;
+  transition: 0.3s;
+  /*font-size: 25px;*/
+}
+
+ul.topnav li a:hover {
+    background-color: #778899;
+    }/*Gris*/
+
+ul.topnav li.icon {
+    display: none;
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {
+    display: none;
+}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {
+    position: relative;
+}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+/*Fin del Menu*/
+
+h1{/*Titulo Principal*/
+    color:#191970;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 { /*Titulo Secundario*/
+    color: #191970;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+
+h3 {/*Titulo Cuarto, titulos of studentsneedingsponsors*/
+    color: #00008B;
+    font-size: 22px;
+ }
+
+h4 { /*Titulo Cuarto Link de navegacion*/
+    color: #FFFFFF;/*Color white*/
+    font-size: 15px;
+ }
+p#home{/*Tamaño fuente de la pagina home*/
+    color: #000000;/*Color Black*/
+    font-family: "Tines New Roman";
+    font-size: 22px;
+}
+p#testimonios{/*Tamaño fuente de la pagina Testimonios*/
+    color: #000000;
+    font-family: "Tines New Roman";
+    font-size: 22px;
+}
+p#aboutus{/*Tamaño fuente de la pagina about us*/
+    color: #000000;
+    font-family: "Tines New Roman";
+    font-size: 25px;
+}
+
+p#requeriments{/*Tamaño fuente de la pagina requeriments*/
+   color: #000000;
+   font-family: "Tines New Roman";
+   font-size: 25px;
+}
+
+p#EstudentNS{/*Tamaño fuente de la pagina students needing sponsors*/
+    color: #000000;
+    font-family: "Tines New Roman";
+    font-size: 20px;
+
+}
+
+p#events{/*Tamaño fuente de la pagina events*/
+    color: #000000;
+    font-family: "Tines New Roman";
+    line-height: 50%;
+    font-size: 20px;
+
+
+}
+p#contactus{/*Tamaño fuente de la pagina contact us*/
+    color: 000000;
+    font-family: "Tines New Roman";
+    font-size: 18px;
+}
+
+#imgbaner{/*tamaño de la imagen del banner*/
+    width:250;
+    height: 150;
+    text-align: center;
+    margin: 0px;
+    /*border:10px solid #ccc;*/
+    border:10px solid #FFD700;
+}
+
+#imgDirectorio{/*Imagenes de los contatos de directorios*/
+    width: 200px;
+    height:200%;
+    text-align: center;
+    margin: 0px;
+
+}
+
+#imgrequeriments{/*Imagenes de la sesion de requeriments*/
+    width: 250px;
+    height: 200px;
+    margin: 0px;
+
+}
+
+#imghome{/*Imagenes de la sesion de home*/
+    width: 300px;
+    height: 200px;
+    margin: 0px;
+
+}
+
+
+#Events{/*Imagenes de la sesion de eventos*/
+    width: 300px;
+    height: 200px;
+    margin: 0px;
+
+}
+
+#Aboutus{/*Imagenes de la sesion de about us*/
+    width: 300px;
+    height: 200px;
+    margin: 0px;
+
+}
+
+#Testimonios{/*Imagenes de la sesion de testimonios*/
+    width: 300px;
+    height: 250px;
+    margin: 0px;
+
+}
+
+#ENE{/*Imagenes students needing sponsors*/
+    width: 90px;
+    height: 90px;
+    margin: 0px;
+
+}
+
+/*image replacement */
+.graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
+        margin:0;
+        padding:0;
+        display:block;
+        overflow:hidden;
+        text-indent:-8000px;
+    }
+/* // image replacement */
+            
+    
+/* Easy Slider */
+
+#slider ul, #slider li,
+#slider2 ul, #slider2 li{
+    margin:0;
+    padding:0;
+    list-style:none;
+ }
+#slider2{
+    margin-top:1em;
+}
+
+#slider li, #slider2 li{ 
+/* define width and height of list item (slide)
+entire slider area will adjust according to the parameters provided here*/ 
+    width:696px;/*margen del ancho del banner*/
+    height:270px;/*margen del alto del banner*//*Las imagenes deben de contener el mismo tamaño del banner
+    por que si no se veran desacomodadas*/
+    overflow:hidden; 
+}   
+#prevBtn, #nextBtn,
+#slider1next, #slider1prev{ 
+    display:block;
+    width:50px;
+    height:77px;
+    position:absolute;
+    left:-30px;
+    top:71px;
+    z-index:1000;
+}   
+#nextBtn, #slider1next{ 
+    left:1000px;
+}                                                       
+#prevBtn a, #nextBtn a,
+#slider1next a, #slider1prev a{  
+    display:block;
+    position:relative;
+    width:50px;
+    height:77px;
+   
+}   
+ /* numeric controls */  
+
+ol#controls{
+    margin:1em 0;
+    padding:0;
+    height:50px;    
+}
+ol#controls li{
+    margin:0 10px 0 0; 
+    padding:0;
+    float:left;
+    list-style:none;
+    height:50px;
+    line-height:50px;
+        }
+ol#controls li a{
+    float:left;
+    height:50px;
+    line-height:50px;
+    border:1px solid #ccc;
+    background:#DAF3F8;
+    color:#555;
+    padding:0 10px;
+    text-decoration:none;
+}
+ol#controls li.current a{
+    background:#5DC9E1;
+    color:#fff;
+}
+ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
+    
+/* // Easy Slider */
+
+div.img {/*Me didas de la division de la imagen*/
+    margin: 10px;
+    border: 10px solid #ccc;
+    float: left;
+    width: 200px;
+    
+}
+
+
+div.desc {
+    padding:10px;
+    text-align: center;
+}
+
+/*div.center{
+    text-align: center;
+
+}*/
+
+.centratabla{/*Centra texto de la tabla*/
+    text-align: center;
+
+}
+div.container {/*Medidas del div de contendio*/
+    width: 100%;
+    
+}
+
+
