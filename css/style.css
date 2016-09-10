@@ -16,8 +16,10 @@ header{
 nav{
   
     /*float: center;*/
-    text-align: center;
+    /*text-align: center;*/
     /*margin-top: 0.7em;*/
+     width: 100%;/*Ancho del nav*/
+
 }
 
 nav li{
@@ -29,7 +31,8 @@ nav li{
 aside {
     float: right;
     /*padding:10px;*/
-    width: 22%;/*Ancho del aside*/
+      width: 22%;/*Ancho del nav*/
+   
   
    
 }
@@ -192,9 +195,9 @@ p#contactus{/*Tamaño fuente de la pagina contact us*/
 }
 
 #imgbaner{/*tamaño de la imagen del banner*/
-    width:680px;
+    width: 50%;
     height: 350px;
-    text-align: center;
+    /*text-align: center;*/
     margin: 0px;
     /*border:10px solid #ccc;*/
     border:10px solid #FFD700;
@@ -202,7 +205,6 @@ p#contactus{/*Tamaño fuente de la pagina contact us*/
 
 #imgDirectorio{/*Imagenes de los contatos de directorios*/
     width: 200px;
-    height:200%;
     text-align: center;
     margin: 0px;
 
@@ -257,7 +259,7 @@ p#contactus{/*Tamaño fuente de la pagina contact us*/
         padding:0;
         display:block;
         overflow:hidden;
-        text-indent:-8000px;
+        text-indent:-5000px;
     }
 /* // image replacement */
             
@@ -284,44 +286,83 @@ entire slider area will adjust according to the parameters provided here*/
 }   
 #prevBtn, #nextBtn,
 #slider1next, #slider1prev{ 
-    display:block;
+    /*display:block;
     width:50px;
     height:77px;
     position:absolute;
     left:-30px;
-    top:71px;
-    z-index:1000;
+    top:71px;*/
+
+    display:block;
+    width:20px;
+    height:50px;
+    position:absolute;
+    left:-10px;
+    top: 41px;
+    /*z-index:1000;*/
+    z-index:200;
 }   
 #nextBtn, #slider1next{ 
-    left:1000px;
+   /* left:1000px;*/
+
+    left:200px;
 }                                                       
 #prevBtn a, #nextBtn a,
 #slider1next a, #slider1prev a{  
-    display:block;
+    /*display:block;
     position:relative;
     width:50px;
-    height:77px;
+    height:77px;*/
+
+
+    display:block;
+    position:relative;
+    width:20px;
+    height:40px;
    
 }   
  /* numeric controls */  
 
 ol#controls{
+   /* margin:1em 0;
+    padding:0;
+    height:50px; */
+
+
     margin:1em 0;
     padding:0;
-    height:50px;    
+    height:20px;     
 }
 ol#controls li{
-    margin:0 10px 0 0; 
+    /*margin:0 10px 0 0; 
     padding:0;
     float:left;
     list-style:none;
     height:50px;
-    line-height:50px;
+    line-height:50px;*/
+
+
+    margin:0 0px 0 0; 
+    padding:0;
+    float:left;
+    list-style:none;
+    height:20px;
+    line-height:20px;
         }
 ol#controls li a{
-    float:left;
+   /* float:left;
     height:50px;
     line-height:50px;
+    border:1px solid #ccc;
+    background:#DAF3F8;
+    color:#555;
+    padding:0 10px;
+    text-decoration:none;*/
+
+
+    float:left;
+    height:20px;
+    line-height:20px;
     border:1px solid #ccc;
     background:#DAF3F8;
     color:#555;
@@ -336,11 +377,11 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
     
 /* // Easy Slider */
 
-div.img {/*Me didas de la division de la imagen*/
+/*div.img {Me didas de la division de la imagen
     margin: 10px;
     border: 10px solid #ccc;
     float: left;
-    width: 200px;
+    width: 100px;*/
     
 }
 
@@ -349,11 +390,6 @@ div.desc {
     padding:10px;
     text-align: center;
 }
-
-/*div.center{
-    text-align: center;
-
-}*/
 
 .centratabla{/*Centra texto de la tabla*/
     text-align: center;
@@ -364,9 +400,9 @@ div.container {/*Medidas del div de contendio*/
     /*margin: 8%;*/
     /*height: 1400px;*/
     display: inline-block;
-    /*background: white;*/
-    
+    /*background: white;*/    
 }
 
-
-
+div.sliders{
+     width: 100%;
+}
