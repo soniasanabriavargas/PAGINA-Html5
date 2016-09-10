@@ -15,7 +15,7 @@ header{
 }
 nav{
   
-    /*float:left;*/
+    /*float: center;*/
     text-align: center;
     /*margin-top: 0.7em;*/
 }
@@ -28,24 +28,24 @@ nav li{
 
 aside {
     float: right;
-    padding:10px;
-    width: 21%;/*Ancho del aside*/
+    /*padding:10px;*/
+    width: 22%;/*Ancho del aside*/
   
    
 }
 
 section {
     float: left;
-    padding:10px;
+    /*padding:10px;*/
     width: 39%;/*Ancho del section*/
       
 }
 
 
 article {
-    float:left;
-    padding:10px;
-    width: 35%;/*Ancho del article*/
+    float: left;
+    /*padding:10px;*/
+    width: 39%;/*Ancho del article*/
    
    
 }
@@ -361,7 +361,12 @@ div.desc {
 }
 div.container {/*Medidas del div de contendio*/
     width: 100%;
+    /*margin: 8%;*/
+    /*height: 1400px;*/
+    display: inline-block;
+    /*background: white;*/
     
 }
+
 
 
