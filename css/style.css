@@ -31,7 +31,7 @@ nav li{
 }*/
 
 section {
-    background:#F0FFFF;
+    /*background:#F0FFFF;*/
     box-sizing:border-box;/*Esta propiedad hace que el padding se mida por dentro, y el ancho de claro se va arespetar*/
     float: left;
     margin: 1%;
@@ -387,8 +387,8 @@ ol#controls li a{
 
 
     float:left;
-    height:20px;
-    line-height:20px;
+    height:50px;
+    line-height:50px;
     border:1px solid #ccc;
     background:#DAF3F8;
     color:#555;
@@ -411,7 +411,7 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
   } */ 
 
   section{
-   width: 98%; /*Mostrara 1 columna*/
+   width: 98%; /*Mostrara 2 columnas*/
    
   }  
 }
@@ -431,7 +431,7 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
  /* body{
     background: green;
   } */ 
