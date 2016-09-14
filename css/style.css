@@ -15,9 +15,6 @@ header{
 }
 nav{
   
-    /*float: center;*/
-    /*text-align: center;*/
-    /*margin-top: 0.7em;*/
      width: 100%;/*Ancho del nav*/
 
 }
@@ -28,30 +25,27 @@ nav li{
 }
 
 
-aside {
+/*aside {
     float: right;
-    /*padding:10px;*/
-      width: 22%;/*Ancho del nav*/
-   
-  
-   
-}
+      width: 18%;
+}*/
 
 section {
+    background:#F0FFFF;
+    box-sizing:border-box;/*Esta propiedad hace que el padding se mida por dentro, y el ancho de claro se va arespetar*/
     float: left;
-    /*padding:10px;*/
-    width: 39%;/*Ancho del section*/
+    margin: 1%;
+    padding:15px;
+    width: 48%;/*Ancho del section*/
       
 }
 
-
-article {
+/*article {
     float: left;
-    /*padding:10px;*/
-    width: 39%;/*Ancho del article*/
-   
-   
-}
+    margin: 1%;
+    padding:15px;
+    width: 48%;   
+}*/
 
 footer{
     clear: both;/*Restaura el flujo normal del documento con la propiedad clear, para que no se suba hacia arriba*/
@@ -60,12 +54,6 @@ footer{
     text-align: center;
     font-size: 0.9em;
     padding: 1em 0;
-
-}
-
-#container img{
-    width: 100%;
-    height: auto;
 }
 
 /* Remove margins and padding from the list, and add a black background color */
@@ -134,6 +122,9 @@ ul.topnav li.icon {
 }
 /*Fin del Menu*/
 
+
+/*Inicio de etiquetas de titulos*/
+
 h1{/*Titulo Principal*/
     color:#191970;
     font-size: 50px;
@@ -141,9 +132,9 @@ h1{/*Titulo Principal*/
 }
 
 
-h2 { /*Titulo Secundario*/
+h2 { /*Titulo Secundario, Requeriments*/
     color: #191970;
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
     
 }
@@ -154,30 +145,35 @@ h3 {/*Titulo Cuarto, titulos of studentsneedingsponsors*/
     font-size: 22px;
  }
 
+
 h4 { /*Titulo Cuarto Link de navegacion*/
     color: #FFFFFF;/*Color white*/
     font-size: 15px;
  }
+
+/*Fin de etiquetas de titulos*/
+
+/*Inicio de tamaños de fuentes*/
 p#home{/*Tamaño fuente de la pagina home*/
     color: #000000;/*Color Black*/
     font-family: "Tines New Roman";
-    font-size: 22px;
+    font-size: 20px;
 }
 p#testimonios{/*Tamaño fuente de la pagina Testimonios*/
     color: #000000;
     font-family: "Tines New Roman";
-    font-size: 22px;
+    font-size: 20px;
 }
 p#aboutus{/*Tamaño fuente de la pagina about us*/
     color: #000000;
     font-family: "Tines New Roman";
-    font-size: 25px;
+    font-size: 20px;
 }
 
 p#requeriments{/*Tamaño fuente de la pagina requeriments*/
    color: #000000;
    font-family: "Tines New Roman";
-   font-size: 25px;
+   font-size: 20px;
 }
 
 p#EstudentNS{/*Tamaño fuente de la pagina students needing sponsors*/
@@ -190,7 +186,7 @@ p#EstudentNS{/*Tamaño fuente de la pagina students needing sponsors*/
 p#events{/*Tamaño fuente de la pagina events*/
     color: #000000;
     font-family: "Tines New Roman";
-    line-height: 50%;
+    /*line-height: 50%;*/
     font-size: 20px;
 
 
@@ -199,71 +195,89 @@ p#contactus{/*Tamaño fuente de la pagina contact us*/
     color: 000000;
     font-family: "Tines New Roman";
     font-size: 18px;
+    text-align: center;
 }
+/*Fin de tamaños de fuentes*/
 
+/*Inicio de tamaños de imagenes*/
 #imgbaner{/*tamaño de la imagen del banner*/
-
     width: 100%;
-    height: auto; 
+    /*height: auto;*/ 
     max-width:472px;
-
-    /*width: 50%;*/
     height: 350px;
-    /*text-align: center;*/
-    margin: 0px;
-    /*border:10px solid #ccc;*/
-    border:10px solid #FFD700;
+    /*border:10px solid #FFD700;*/
 }
 
 #imgDirectorio{/*Imagenes de los contatos de directorios*/
-    width: 200px;
+    /*width: 200px;*/
+    width: 100%;
+    max-width:240px;
+    height: 220px;
     text-align: center;
-    margin: 0px;
+    
 
 }
 
 #imgrequeriments{/*Imagenes de la sesion de requeriments*/
-    width: 250px;
+    /*width: 250px;*/
+    width: 100%;
     height: 200px;
-    margin: 0px;
+    max-width: 200px;
+    
 
 }
 
 #imghome{/*Imagenes de la sesion de home*/
-    width: 200px;
+    /*width: 200px;*/
+    width: 100%;
     height: 250px;
-    margin: 0px;
+    max-width: 200px;
+    
+}
+
+#imgevents{/*Imagenes de la sesion de eventos*/
+    /*width: 300px;*/
+    width: 100%;
+    height: 230px;
+    /*height: auto;*/
+    max-width: 300px;
 
 }
 
-
-#Events{/*Imagenes de la sesion de eventos*/
-    width: 250px;
-    height: 200px;
-    margin: 0px;
-
-}
-
-#Aboutus{/*Imagenes de la sesion de about us*/
-    width: 300px;
-    height: 200px;
-    margin: 0px;
+#imgaboutus{/*Imagenes de la sesion de about us*/
+    /*width: 300px;*/
+    width: 100%;
+    max-width: 300px;   
+    /*height: 200px;*/
+    height: auto;
+   
 
 }
 
 #Testimonios{/*Imagenes de la sesion de testimonios*/
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
+    /*width: 300px;*/
     height: 250px;
-    margin: 0px;
 
 }
 
 #ENE{/*Imagenes students needing sponsors*/
-    width: 90px;
-    height: 90px;
-    margin: 0px;
+   /*width: 96px;*/
+   width: 100%;
+   height: 109px;
+   max-width: 90px;
 
 }
+
+
+#imglogo{
+    width: 100%;
+    height: auto;
+    /*max-width: 200px;*/
+    max-width:472px;
+}
+/*Fin de tamaños de imagenes*/
 
 /*image replacement */
 .graphic, #prevBtn, #nextBtn, #slider1prev, #slider1next{
@@ -311,8 +325,8 @@ entire slider area will adjust according to the parameters provided here*/
     position:absolute;
     left:-10px;
     top: 41px;
-    /*z-index:1000;*/
-    z-index:200;
+    z-index:1000;
+    /*z-index:200;*/
 }   
 #nextBtn, #slider1next{ 
    /* left:1000px;*/
@@ -389,73 +403,43 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
     
 /* // Easy Slider */
 
-/*div.img {Me didas de la division de la imagen
-    margin: 10px;
-    border: 10px solid #ccc;
-    float: left;
-    width: 100px;*/
-    
-}
+/*Inicio de mediaquerys para Responsive Design*/
+@media (min-width: 360px) {
 
-
-div.desc {
-    padding:10px;
-    text-align: center;
-}
-
-.centratabla{/*Centra texto de la tabla*/
-    text-align: center;
-
-}
-
-div.sliders{
-     width: 100%;
-}
-
-#imglogo{
-    width: 100%;
-    height: auto;
-    /*max-width: 200px;*/
-    max-width:472px;
-}
-
-div.container {/*Medidas del div de contendio*/
-    width: 100%;
-    /*margin: 2%;*/
-    /*height: 1400px;*/
-    display: inline-block;
-    /*background: white;*/  
-}
-
-@media screen and(min-width: 480px) {
-
-  body{
+  /*body{
     background: yellow;
+  } */ 
+
+  section{
+   width: 98%; /*Mostrara 1 columna*/
+   
   }  
 }
 
 
-@media screen and(min-width: 767px) {
-  body{
+@media (min-width: 768px) {
+ /* body{
     background: blue;
-  }  
+  }  */
+     section{
+        width: 31.33%; /*Mostrara 3 columnas*/
+        /*Calculo 100/3-2*/
+     }
 
-  div{
 
-    width: 50%;
-
-  }
+  
 }
 
 
-@media screen and(min-width: 950px) {
-  body{
+@media (min-width: 1200px) {
+ /* body{
     background: green;
-  }  
+  } */ 
+   section{
+    width: 23%; /*Mostrara 4 columnas*/
+    /*Calculo 100/4-2*/
+   }
 
-  div{
-
-    width: 25%;
-
-  }
 }
+
+/*Inicio de mediaquerys para Responsive Design*/
