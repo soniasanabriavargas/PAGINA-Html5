@@ -12,7 +12,7 @@ body{
 header{
    
     text-align: center; 
-    /*width: 100%;/*Ancho del header*/
+    width: 100%;/*Ancho del header*/
     /*border:10px solid #FFD700;*/
    
 }
@@ -370,7 +370,9 @@ div#slider figure img {
    
   }  
 
-
+  header{
+    width: 80%;
+ }
  
 }
 
@@ -384,6 +386,9 @@ div#slider figure img {
         /*Calculo 100/3-2*/
      }
 
+ header{
+    width: 80%;
+ }
   
 }
 
@@ -393,10 +398,13 @@ div#slider figure img {
     background: green;
   } */ 
    section{
-    width: 23%; /*Mostrara 4 columnas*/
+    width: 50%; /*Mostrara 4 columnas*/
     /*Calculo 100/4-2*/
    }
 
+ header{
+    width: 80%;
+ }
 
 }
 
